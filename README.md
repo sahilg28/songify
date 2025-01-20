@@ -1,8 +1,58 @@
-# React + Vite
+# Songify 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and simple Spotify song downloader built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clean, minimalist UI
+- Easy-to-use single-input interface
+- Real-time error handling
+- Spotify song download functionality
+- Responsive design
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- Rapid API (Spotify Downloader API)
+- Vite
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/sahilg28/songify.git
+cd songify
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Create a `.env` file in the root directory and add your Rapid API key:
+```env
+VITE_API_KEY=your_rapidapi_key_here
+```
+
+4. Start the development server
+```bash
+npm run dev
+```
+
+## Usage
+
+1. Copy a Spotify song URL
+2. Paste it into the input field
+3. Click the Download button
+4. Wait for your song to download
+
+
+## Author
+
+[Sahil G](https://github.com/sahilg28)
+
+---
+⭐ Star this repo if you found it helpful!
